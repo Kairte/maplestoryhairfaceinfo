@@ -1,0 +1,63 @@
+﻿JOKER MODE DIGIT RATE ANALYSIS
+
+Pool rule used: numeric code only, QM placeholders excluded, Exclusive BW included.
+Joker card rule used: 5-digit code contains at least one repeated digit.
+
+Playable pool total: 1194
+Normal card total : 365
+Joker card total  : 829
+
+NORMAL CARDS
+============
+Cards: 365
+Digit slots counted: 1825
+
+Top digits by slot share:
+- 0: 365 slots (20%)
+- 3: 201 slots (11.014%)
+- 4: 198 slots (10.849%)
+Top digits by card inclusion:
+- 0: 365 cards (100%)
+- 3: 201 cards (55.068%)
+- 4: 198 cards (54.247%)
+
+Digit | SlotCount | SlotRate% | CardCount | CardRate%
+----- | --------- | --------- | --------- | ---------
+0 | 365 | 20 | 365 | 100
+1 | 137 | 7.507 | 137 | 37.534
+2 | 169 | 9.26 | 169 | 46.301
+3 | 201 | 11.014 | 201 | 55.068
+4 | 198 | 10.849 | 198 | 54.247
+5 | 186 | 10.192 | 186 | 50.959
+6 | 179 | 9.808 | 179 | 49.041
+7 | 146 | 8 | 146 | 40
+8 | 139 | 7.616 | 139 | 38.082
+9 | 105 | 5.753 | 105 | 28.767
+
+JOKER CARDS
+===========
+Cards: 829
+Digit slots counted: 4145
+
+Top digits by slot share:
+- 0: 1250 slots (30.157%)
+- 5: 436 slots (10.519%)
+- 3: 430 slots (10.374%)
+Top digits by card inclusion:
+- 0: 829 cards (100%)
+- 5: 326 cards (39.324%)
+- 6: 315 cards (37.998%)
+
+Digit | SlotCount | SlotRate% | CardCount | CardRate%
+----- | --------- | --------- | --------- | ---------
+0 | 1250 | 30.157 | 829 | 100
+1 | 219 | 5.283 | 178 | 21.472
+2 | 418 | 10.084 | 295 | 35.585
+3 | 430 | 10.374 | 313 | 37.756
+4 | 403 | 9.723 | 310 | 37.394
+5 | 436 | 10.519 | 326 | 39.324
+6 | 418 | 10.084 | 315 | 37.998
+7 | 255 | 6.152 | 208 | 25.09
+8 | 200 | 4.825 | 175 | 21.11
+9 | 116 | 2.799 | 108 | 13.028
+
