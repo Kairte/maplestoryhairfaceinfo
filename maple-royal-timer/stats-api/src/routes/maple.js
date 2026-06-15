@@ -181,6 +181,7 @@ function buildProfileBundle(basic = {}, beauty = {}, requestedWorld = "") {
 
   return {
     ok: true,
+    apiVersion: "2026-06-15-appearance-color-v1",
     characterName: readNestedText(basic, ["character_name"]) || "",
     worldName: readNestedText(basic, ["world_name"]) || requestedWorld || "",
     characterGender,
@@ -204,6 +205,7 @@ function buildProfileBundle(basic = {}, beauty = {}, requestedWorld = "") {
 
 mapleRouter.get("/profile-bundle", async (req, res, next) => {
   try {
+    res.set("Cache-Control", "no-store");
     const worldName = String(req.query.world || "").trim();
     const characterName = String(req.query.characterName || req.query.name || "").trim();
     const paths = getMaplePaths();
